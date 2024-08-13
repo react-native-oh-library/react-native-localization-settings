@@ -1,6 +1,6 @@
 {
-  "name": "react-native-localization-settings",
-  "version": "1.0.2",
+  "name": "@react-native-oh-tpl/react-native-localization-settings",
+  "version": "1.0.2-0.0.1",
   "description": "React Native module to expose per-app language preferences API on iOS and Android.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -13,6 +13,7 @@
     "android",
     "ios",
     "cpp",
+    "harmony",
     "*.podspec",
     "!lib/typescript/example",
     "!ios/build",
@@ -34,14 +35,26 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn install && yarn example pods",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build"
+    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build node_modules"
   },
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "harmony"
   ],
-  "repository": "https://github.com/jakex7/react-native-localization-settings",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/react-native-oh-library/react-native-localization-settings.git" 
+  },
+  "harmony": {
+    "alias": "react-native-localization-settings",
+   "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
+  },
   "author": "Jakub Grzywacz <kontakt@jakubgrzywacz.pl> (https://github.com/jakex7)",
   "license": "MIT",
   "bugs": {
@@ -59,6 +72,7 @@
     "@types/jest": "^28.1.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.70.0",
+    "react-native-localization-settings": "^1.0.2",
     "commitlint": "^17.0.2",
     "del-cli": "^5.0.0",
     "eslint": "^8.4.1",
@@ -148,13 +162,7 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
+      "module"
     ]
   },
   "codegenConfig": {

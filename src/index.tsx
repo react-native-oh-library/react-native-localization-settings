@@ -24,6 +24,8 @@ const LocalizationSettings = LocalizationSettingsModule
       }
     );
 
+    const {language} = LocalizationSettingsModule
+
 /**
  * Get language
  * @returns Language in IETF BCP 47 format (like 'en-US')
@@ -32,7 +34,11 @@ const LocalizationSettings = LocalizationSettingsModule
  */
 export function getLanguage(): string {
   LocalizationSettings.getLanguage();
-  return LocalizationSettings.language.split('_')[0];
+  if( Platform.OS === 'harmony'){
+    return LocalizationSettings.getConstants().language.split('_')[0];
+  }else{
+    return LocalizationSettings.language.split('_')[0];
+  }
 }
 
 /**

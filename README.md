@@ -1,15 +1,13 @@
 # @react-native-oh-tpl/react-native-localization-settings
 
-## 文档地址 / Documentation URL 
+This project is based on [react-native-compass-heading](https://github.com/firofame/react-native-compass-heading)
 
-[中文 / Chinese](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-localization-settings.md)
+## Documentation
 
-[英文 / English](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-en/react-native-localization-settings.md)
+[中文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-localization-settings.md)
 
-## Codegen
+[English](https://gitee.com/react-native-oh-library/usage-docs/blob/master/en/react-native-localization-settings.md)
 
-该库已接入 codegen，具体请查阅文档。
+## License
 
-## 请悉知 / Acknowledgements
-
-本项目基于 [The MIT License (MIT)](https://github.com/react-native-oh-library/react-native-localization-settings/blob/sig/LICENSE) ，请自由地享受和参与开源。
+This library is licensed under [The MIT License (MIT)](https://github.com/react-native-oh-library/react-native-localization-settings/blob/sig/LICENSE).

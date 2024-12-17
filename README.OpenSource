@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-localization-settings",
+        "License": "MIT License",
+        "License File": "https://github.com/jakex7/react-native-localization-settings/blob/main/LICENSE",
+        "Version Number": "1.0.2-0.0.1",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/jakex7/react-native-localization-settings",
+        "Description": "React Native module to expose per-app language preferences API on iOS and Android"
+    }
+]

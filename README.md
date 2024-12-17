@@ -10,4 +10,4 @@ This project is based on [react-native-compass-heading](https://github.com/firof
 
 ## License
 
-This library is licensed under [The MIT License (MIT)](https://github.com/react-native-oh-library/react-native-localization-settings/blob/sig/LICENSE).
+This library is licensed under [The MIT License (MIT)](https://github.com/jakex7/react-native-localization-settings/blob/main/LICENSE).

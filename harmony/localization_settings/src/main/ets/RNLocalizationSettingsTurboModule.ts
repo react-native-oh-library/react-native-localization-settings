@@ -17,7 +17,7 @@ export class RNLocalizationSettingsTurboModule extends TurboModule implements TM
   }
 
   getConstants(): Object {
-    return { language: this.getCurrentLanguage(); }
+    return { language: this.getCurrentLanguage(), }
   }
 
   private getLanguageTag(language: string) {
